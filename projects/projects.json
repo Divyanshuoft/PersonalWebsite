@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Student Course Planner",
+    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, Firebase, Figma, TDD",
+    "image": "courseplanner",
+    "category": "android",
+    "links": {
+      "view": "https://github.com/Divyanshuoft/b07-group-project-",
+      "code": "https://github.com/Divyanshuoft/b07-group-project-"
+    }
+  },
+  {
+    "name": "Carbon Cam",
+    "desc": "an Android app leveraging a cloud-deployed SVC-based ML image recognition model through Flask on Heroku",
+    "image": "carbonfootprint_app",
+    "category": "android",
+    "links": {
+      "view": "https://github.com/Divyanshuoft/CarbonCam",
+      "code": "https://github.com/Divyanshuoft/CarbonCam"
+    }
+  },
+  {
+    "name": "Health Canada",
+    "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides health monitering service",
+    "image": "hci",
+    "category": "android",
+    "links": {
+      "view": "https://github.com/Divyanshuoft/Health-Canada-App",
+      "code": "https://github.com/Divyanshuoft/Health-Canada-App"
+    }
+  },
+  {
+    "name": "Current",
+    "desc": "Online Team communication and collaboration tool. Built using ReactJS, NodeJS, ExpressJS, MongoDB, Socket.io",
+    "image": "curr",
+    "category": "mern",
+    "links": {
+      "view": "https://flipkartwebs.herokuapp.com/",
+      "code": "https://github.com/jigar-sable/flipkart-mern"
+    }
+  },
+  {
+    "name": "ChatUofT",
+    "desc": "A real-time chat application built using ReactJS, NodeJS, ExpressJS, MongoDB, Socket.io and Azure, made for UofT students",
+    "image": "cuoft",
+    "category": "mern",
+    "links": {
+      "view": "https://resumegenx.netlify.app/",
+      "code": "https://github.com/jigar-sable/resumegen"
+    }
+  },
+  {
+    "name": "MyBNB-Nexus",
+    "desc": "It's a database management system for a just like AirBNB. Built using Java, JavaFX, MySQL, JDBC, CSS, FXML",
+    "image": "airbnb",
+    "category": "lamp",
+    "links": {
+      "view": "https://github.com/Divyanshuoft/AirBNB-Nexus-Database-Project",
+      "code": "https://github.com/Divyanshuoft/AirBNB-Nexus-Database-Project"
+    }
+  },
+  {
+    "name": "MMD BookHub",
+    "desc": "My first web project. A basic website for book lovers. Built using HTML, CSS, JavaScript, PHP and MySQL database",
+    "image": "mmdb",
+    "category": "basicweb",
+    "links": {
+      "view": "https://github.com/Divyanshuoft/Divyanshuoft.github.io",
+      "code": "https://github.com/Divyanshuoft/Divyanshuoft.github.io"
+    }
+  },
+  
+  {
+    "name": "Portfolio Website",
+    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "image": "po",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/jigar-sable/Portfolio-Website"
+    }
+  },
+  {
+    "name": "SafeWalk",
+    "desc": "Full-Stack website built using HTML, CSS, JavaScript, SQL and Flask",
+    "image": "sfi",
+    "category": "basicweb",
+    "links": {
+      "view": "https://github.com/Divyanshuoft/SafeWalk",
+      "code": "https://github.com/Divyanshuoft/SafeWalk"
+    }
+  },
+  {
+    "name": "Software Monitering Software",
+    "desc": "It's a software monitering software. Built using concurrent programming in Shell, C, C++, Java, Python, Go and Rust",
+    "image": "cs",
+    "category": "lamp",
+    "links": {
+      "view": "https://github.com/Divyanshuoft/B09-Assignment-3-System-Monitoring-Tool-Concurrency-Signals",
+      "code": "https://github.com/Divyanshuoft/B09-Assignment-3-System-Monitoring-Tool-Concurrency-Signals"
+    }
+  }
+]
