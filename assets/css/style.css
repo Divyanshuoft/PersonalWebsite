@@ -226,6 +226,16 @@ header .navbar ul li a:hover {
   font-weight: 800;
   color: #002057;
 }
+
+/* contact section media queries starts */
+@media (max-width: 900px) {
+  .home .content h2 {
+    margin-top: 40px;
+    font-size: 5rem;
+    font-weight: 800;
+    color: #002057;
+  }
+}
 .home .content h2 span {
   font-size: 5rem;
   font-weight: 800;
