@@ -211,6 +211,22 @@ const srtop = ScrollReveal({
     reset: true
 });
 
+// JavaScript code for controlling the music player
+const music = document.getElementById('music');
+
+music.addEventListener('play', () => {
+    console.log('Music is playing');
+});
+
+music.addEventListener('pause', () => {
+    console.log('Music is paused');
+});
+
+music.addEventListener('ended', () => {
+    console.log('Music has ended');
+});
+
+
 /* SCROLL HOME */
 srtop.reveal('.home .content h3', { delay: 200 });
 srtop.reveal('.home .content p', { delay: 200 });
