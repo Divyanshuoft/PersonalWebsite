@@ -74,7 +74,6 @@ header {
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 section {
-  min-height: 100vh;
   padding: 2rem 9%;
 }
 .heading {
@@ -992,11 +991,14 @@ header .navbar ul li a:hover {
 /* experience media queries ends */
 /* experience section ends */
 
-/* contact section starts */
 .contact {
   background: #e5ecfb;
   min-height: 60vh;
+  display: flex; /* Make sure the container is a flexbox */
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Align items horizontally */
 }
+
 .contact .container {
   max-width: 1050px;
   width: 100%;
