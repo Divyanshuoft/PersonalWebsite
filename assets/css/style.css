@@ -1202,7 +1202,6 @@ form .button-area {
   padding: 1rem;
   text-align: center;
   border-radius: 5rem;
-  font-size: 1.7rem;
   margin-right: 1rem;
   transition: 0.2s;
   background: rgb(230, 230, 230);
@@ -1250,9 +1249,7 @@ form .button-area {
   .footer .box-container .box p {
     padding: 0.7rem;
   }
-  .footer .box-container .box .share a {
-    padding: 1.2rem;
-  }
+  
 }
 /* footer section ends */
 
