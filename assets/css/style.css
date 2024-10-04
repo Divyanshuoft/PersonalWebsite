@@ -8,7 +8,7 @@
   text-decoration: none;
   outline: none;
   border: none;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   transition: all 0.2s linear;
 }
 html {
@@ -451,7 +451,7 @@ header .navbar ul li a:hover {
   margin-top: 1.5rem;
   font-family: "Nunito";
   font-weight: 600;
-  text-transform: none;
+  /* text-transform: none; */
 }
 .about .row .content .box-container {
   display: flex;
@@ -463,7 +463,7 @@ header .navbar ul li a:hover {
   font-weight: 600;
 }
 .about .row .content .box-container .box p {
-  text-transform: none;
+  /* text-transform: none; */
 }
 .about .row .content .box-container .box p span {
   color: #011aff;
@@ -1129,6 +1129,7 @@ form .button-area {
 .button-area button:hover i {
   left: 8px;
 }
+
 /* contact section media queries starts */
 @media (max-width: 900px) {
   .contact {
@@ -1176,7 +1177,7 @@ form .button-area {
   font-size: 1.5rem;
   color: #ccc;
   padding: 0.7rem 0;
-  text-transform: none;
+  /* text-transform: none; */
 }
 .footer .box-container .box p i {
   padding-right: 1rem;
