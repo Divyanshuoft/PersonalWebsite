@@ -283,10 +283,11 @@
       <div class="image-box">
         <img draggable="false" src="./assets/images/contact1.png" alt="">
       </div>
-    <form id="contact-form">
+      <form action="https://api.web3forms.com/submit" method="POST" id="contact-form" class="contact-form">
       <h2 class="heading">Get in <span>Touch</span></h2>
 
       <div class="form-group">
+        <input type="hidden" name="access_key" value="06006f6a-2033-401b-a666-5ffbc1f1e897">
         <div class="field">
           <input type="text" name="name" placeholder="Name" required>
           <i class='fas fa-user'></i>
@@ -295,10 +296,10 @@
           <input type="email" name="email" placeholder="Email" required>
           <i class='fas fa-envelope'></i>
         </div>
-        <div class="field">
+        <!-- <div class="field">
           <input type="text" name="phone" placeholder="Phone">
           <i class='fas fa-phone-alt'></i>
-        </div>
+        </div> -->
         <div class="message">
         <textarea placeholder="Message" name="message" required></textarea>
         <i class="fas fa-comment-dots"></i>
@@ -312,6 +313,7 @@
   </div>
   </div>
 </section>
+
 <!-- contact section ends -->
 
 
