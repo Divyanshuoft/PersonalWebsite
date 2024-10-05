@@ -462,9 +462,7 @@ header .navbar ul li a:hover {
   justify-content: center;
   font-weight: 600;
 }
-.about .row .content .box-container .box p {
-  /* text-transform: none; */
-}
+
 .about .row .content .box-container .box p span {
   color: #011aff;
 }
@@ -1285,4 +1283,38 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.update-box {
+  background: linear-gradient(135deg, #d5c9e6, #f1e4f8); /* Very light purple gradient background */
+  border-radius: 15px; /* Slightly more rounded corners */
+  padding: 20px; /* Increased padding for a more spacious feel */
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1); /* Lighter shadow for subtle depth */
+  max-width: 600px; /* Increased max-width for a wider appearance */
+  text-align: center; /* Center text */
+  margin: 10px auto; /* Center the box with auto margins */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effect */
+}
+
+.update-box:hover {
+  transform: scale(1.02); /* Slightly scale up on hover for interaction effect */
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.update-box h2 {
+  margin-top: 0;
+  color: #4b0082; /* Darker purple text for better contrast */
+  font-size: 2.5em; /* Larger heading size for emphasis */
+  letter-spacing: 1px; /* Spacing between letters for a modern look */
+  font-family: 'Montserrat', sans-serif; /* Change font to Montserrat */
+}
+
+.update-box p {
+  color: #6a5acd; /* Medium purple text for a pleasant contrast */
+  margin: 15px 0; /* Increased margin for better spacing */
+  line-height: 1.6; /* Improved line height for better readability */
+  font-size: 1.1em; /* Slightly larger paragraph font size */
+  font-family: 'Montserrat', sans-serif; /* Change font to Montserrat */
+}
 
