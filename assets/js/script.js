@@ -183,8 +183,35 @@ document.onkeydown = function (e) {
     }
 }
 
-
-
+  document.addEventListener('DOMContentLoaded', () => {
+    const imgs = [
+        'https://res.cloudinary.com/dkhclybtw/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1746285844/DDA33DF7-EF3A-4828-83D1-258FD7D90B53_1_105_c_ntxgpt.jpg',
+        'https://res.cloudinary.com/dkhclybtw/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1746285620/7BF0443C-500A-4382-AB0E-024A5B21A4AF_1_105_c_y23gmr.jpg',
+        'https://res.cloudinary.com/dkhclybtw/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1746285596/8165395C-8510-4B3D-91FB-5E0C3F422A06_1_105_c_skhlp1.jpg',
+        'https://res.cloudinary.com/dkhclybtw/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1746284103/10B514A1-A441-49AB-ACCC-BF1FB825AD19_1_105_c_fz2odn.jpg',
+        'https://res.cloudinary.com/dkhclybtw/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1746285613/07620E95-2BC0-4400-9E0F-4C03E8AFFFDB_1_105_c_ssgsa9.jpg',
+        'https://res.cloudinary.com/dkhclybtw/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1746285604/8EA3C36E-AEB6-405E-B690-87180E4F5073_1_105_c_q5xew1.jpg',
+      ];
+    let i = 0;
+    const slide = document.getElementById('slideshow');
+  
+    setInterval(() => {
+        // fade out
+        slide.style.opacity = 0;
+    
+        // after fade‐out, swap + fade back in + bounce
+        setTimeout(() => {
+          i = (i + 1) % imgs.length;
+          slide.src = imgs[i];
+          slide.style.opacity = 1;
+          slide.classList.add('bounce');
+          slide.addEventListener('animationend', () => {
+            slide.classList.remove('bounce');
+          }, { once: true });
+        }, 1000); // matches your 1s CSS fade
+      }, 3000);
+  });
+  
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
     origin: 'top',

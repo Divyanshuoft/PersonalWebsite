@@ -446,6 +446,12 @@ header .navbar ul li a:hover {
   font-weight: 600;
   margin-top: 1rem;
 }
+.about .row .content .tag2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  font-family: "Nunito";
+  font-weight: 600;
+}
 .about .row .content p {
   font-size: 1.5rem;
   margin-top: 1.5rem;
@@ -1286,3 +1292,22 @@ form .button-area {
 }
 /* scroll top ends */
 
+/* Add this to your stylesheet */
+#slideshow {
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+}
+
+/* bounce keyframes */
+@keyframes rebound {
+  0%   { transform: scale(1); }
+  30%  { transform: scale(1.04); }
+  50%  { transform: scale(0.99); }
+  70%  { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+/* bounce class */
+#slideshow.bounce {
+  animation: rebound 0.8s ease;
+}
